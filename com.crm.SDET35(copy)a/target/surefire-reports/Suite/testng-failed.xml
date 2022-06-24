@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <test thread-count="5" verbose="0" name="Test(failed)">
+    <classes>
+      <class name="testng.CreatePurchaseOrderSelectCopyShppingAddressCbTest">
+        <methods>
+          <include name="closeDbConfig"/>
+          <include name="logoutFromApplication"/>
+          <include name="loginToApplication"/>
+          <include name="methodCreatePurchaseOrderSelectCopyShppingAddressCrossBrowserTest"/>
+          <include name="launchTheBrowser"/>
+          <include name="closeTheBrowser"/>
+          <include name="dbConfig"/>
+        </methods>
+      </class> <!-- testng.CreatePurchaseOrderSelectCopyShppingAddressCbTest -->
+      <class name="testng.CreatePurchaseSelectCopyBillingAddressCbTest">
+        <methods>
+          <include name="closeDbConfig"/>
+          <include name="logoutFromApplication"/>
+          <include name="loginToApplication"/>
+          <include name="createMethodPurchaseSelectCopyBillingAddressTest"/>
+          <include name="launchTheBrowser"/>
+          <include name="closeTheBrowser"/>
+          <include name="dbConfig"/>
+        </methods>
+      </class> <!-- testng.CreatePurchaseSelectCopyBillingAddressCbTest -->
+      <class name="testng.CreatePurchaseOrderSelCopyShippingAddBillingAddPresCbTest">
+        <methods>
+          <include name="closeDbConfig"/>
+          <include name="logoutFromApplication"/>
+          <include name="loginToApplication"/>
+          <include name="createMethodPurchaseOrderSelCopyShippingAddBillingAddPresCbTest"/>
+          <include name="launchTheBrowser"/>
+          <include name="closeTheBrowser"/>
+          <include name="dbConfig"/>
+        </methods>
+      </class> <!-- testng.CreatePurchaseOrderSelCopyShippingAddBillingAddPresCbTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
